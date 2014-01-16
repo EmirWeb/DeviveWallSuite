@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_margin="30dp"
+        android:onClick="onMemoryButtonClicked"
+        android:text="@string/home_activity_memory_button" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_margin="30dp"
+        android:onClick="onImageAppClicked"
+        android:text="@string/image_app" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_margin="30dp"
+        android:onClick="onIdentifierAppClicked"
+        android:text="@string/identifier_app" />
+
+</LinearLayout>

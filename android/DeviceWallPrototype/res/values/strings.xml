@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Device Wall</string>
+    <!-- home_activity.xml -->
+    <string name="home_activity_settings_button">Settings</string>
+    <string name="home_activity_memory_button">Memory Game</string>
+    <string name="image_app">Image App</string>
+    <string name="identifier_app">Identifier App</string>
+    
+
+    <!-- settings_activity.xml -->
+    <string name="settings_activity_ip_hint">192.168.1.1</string>
+    <string name="settings_activity_identify_button">Identify</string>
+
+</resources>

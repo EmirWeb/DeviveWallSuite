@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xl.devicewallprototype"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="com.xl.devicewallprototype.DeviceWallApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.xl.devicewallprototype.ImageActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xl.devicewallprototype.activities.DeviceWallIdentifierActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.xl.devicewallprototype.activities.HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xl.devicewallprototype.activities.SettingsActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+       
+        <activity
+            android:name="com.xl.devicewallimageapp.OldImageActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <service android:name=".amqp.AmqpService" >
+        </service>
+    </application>
+
+</manifest>

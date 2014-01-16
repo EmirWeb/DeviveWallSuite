@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/commons-cli-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/rabbitmq-client-tests.jar"/>
+	<classpathentry kind="lib" path="lib/rabbitmq-client.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/xl-network_lib-android-v1.5.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/fluent-hc-4.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-cache-4.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpmime-4.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/junit.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/DeviceWallModels"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
