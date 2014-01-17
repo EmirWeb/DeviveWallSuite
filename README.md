@@ -1,6 +1,11 @@
 # Device Wall
 Engineers at XtremeLabs came up with an idea on how to use multiple devices in an orchestra to create a unique experience. With so many people interested in contributing to this idea, we had a hackathon where we had engineers work in groups, contributing on all the separate pieces needed to make this happen. This is a repository of projects involved. 
 
+##Read more
+Please read the following two articles that describe the architecture and concepts behind the Device Wall
+[Second Screen Architecture Overview](http://pivotallabs.com/power-structure-push-second-screen-solution/)
+[Device Wall Overview](http://pivotallabs.com/device-wall-second-screen-experiment/)
+
 ##How To Start Using
 This will describe how someone could potentially recreate our wall.
 
